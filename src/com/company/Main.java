@@ -3,12 +3,9 @@ package com.company;
 public class Main {
 
     public static void main (String[] args) {
-        String[] phones = {"Nokia", "Samsung", "Iphone"};
-        for (int i = 0; i < phones.length; i++) {
-            System.out.println(createObject("Nokia"));
-            System.out.println(createObject("Samsung"));
-            System.out.println(createObject("Iphone"));
-        }
+        createObject("Nokia");
+        createObject("Samsung");
+        createObject("Iphone");
     }
 
     public static String createObject(String className){
