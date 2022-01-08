@@ -8,7 +8,6 @@ public class Main {
             System.out.println(createObject("Nokia"));
             System.out.println(createObject("Samsung"));
             System.out.println(createObject("Iphone"));
-            break;
         }
     }
 
