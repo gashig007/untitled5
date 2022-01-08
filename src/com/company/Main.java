@@ -3,9 +3,13 @@ package com.company;
 public class Main {
 
     public static void main (String[] args) {
-        System.out.println(createObject("Nokia"));
-        System.out.println(createObject("Samsung"));
-        System.out.println(createObject("Iphone"));
+        String[] phones = {"Nokia", "Samsung", "Iphone"};
+        for (int i = 0; i < phones.length; i++) {
+            System.out.println(createObject("Nokia"));
+            System.out.println(createObject("Samsung"));
+            System.out.println(createObject("Iphone"));
+            break;
+        }
     }
 
     public static String createObject(String className){
