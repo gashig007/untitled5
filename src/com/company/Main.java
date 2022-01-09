@@ -3,9 +3,9 @@ package com.company;
 public class Main {
 
     public static void main (String[] args) {
-        createObject("Nokia");
-        createObject("Samsung");
-        createObject("Iphone");
+        System.out.println(createObject("Nokia"));
+        System.out.println(createObject("Samsung"));
+        System.out.println(createObject("Iphone"));
     }
 
     public static String createObject(String className){
