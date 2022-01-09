@@ -15,7 +15,7 @@ public class Main {
 
     public static Phone createObject(int Phone){
         Random a = new Random();
-        int b = a.nextInt(30);
+        int b = a.nextInt(10);
         switch (Phone) {
             case 1:
                 Nokia nokia = new Nokia(b,"Good");
