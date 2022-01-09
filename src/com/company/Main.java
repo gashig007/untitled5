@@ -16,20 +16,17 @@ public class Main {
     public static Phone createObject(int Phone){
         Random a = new Random();
         int b = a.nextInt(10);
+        Nokia nokia = new Nokia("Nokia","Good");
+        Iphone iphone = new Iphone("Iphone", "Google");
+        Samsung samsung = new Samsung("Samsung", "Samsung S8");
         switch (Phone) {
             case 1:
-                Nokia nokia = new Nokia("Nokia","Good");
                 return nokia;
             case 2:
-                Iphone iphone = new Iphone("Iphone", "Google");
                 return iphone;
             case 3:
-                Samsung samsung = new Samsung("Samsung", "Samsung S8");
                 return samsung;
         }
-        Nokia nokia = new Nokia("Nokia","Good");Iphone iphone = new Iphone("Iphone","Google");
-        Samsung samsung = new Samsung("Samsung", "Samsung S8");
-
         Phone phone [] = {nokia, iphone, samsung};
         return null;
     }
