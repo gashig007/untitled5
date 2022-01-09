@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Random;
-
 public class Main {
 
     public static void main (String[] args) {
@@ -14,8 +12,6 @@ public class Main {
     }
 
     public static Phone createObject(int Phone){
-        Random a = new Random();
-        int b = a.nextInt(10);
         Nokia nokia = new Nokia("Nokia","Good");
         Iphone iphone = new Iphone("Iphone", "Google");
         Samsung samsung = new Samsung("Samsung", "Samsung S8");
