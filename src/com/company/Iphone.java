@@ -3,13 +3,13 @@ package com.company;
 public class Iphone extends Phone{
     private String annexes;
 
-    public Iphone(String annexes) {
+    public Iphone(int memory, String annexes) {
+        super(memory);
         this.annexes = annexes;
     }
 
     @Override
-    public String print() {
-        System.out.println(annexes);
-        return annexes;
+    public void print() {
+        System.out.println("Phone: " + "Iphone" + "\nAnnexes: " + annexes);
     }
 }
