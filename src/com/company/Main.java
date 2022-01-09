@@ -5,7 +5,7 @@ import java.util.Random;
 public class Main {
 
     public static void main (String[] args) {
-        Phone phone [] = {createObject(1), createObject(2), createObject(3), createObject(4)};
+        Phone phone [] = {createObject(1), createObject(2), createObject(3)};
         for (int i = 0; i < phone.length; i++) {
             if(i < phone.length && phone[i] instanceof Printable) {
                 phone[i].print();
