@@ -10,6 +10,6 @@ public class Nokia extends Phone{
 
     @Override
     public void print() {
-        System.out.println("Phone: " + "Nokia" + "\nPhone memory: " + phoneMemory);
+        System.out.println("Phone: " + "Nokia" + "\nNokia memory: " + phoneMemory);
     }
 }

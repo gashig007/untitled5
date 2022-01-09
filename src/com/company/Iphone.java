@@ -10,6 +10,6 @@ public class Iphone extends Phone{
 
     @Override
     public void print() {
-        System.out.println("Phone: " + "Iphone" + "\nAnnexes: " + annexes);
+        System.out.println("Phone: " + "Iphone" + "\nIphone annexes: " + annexes);
     }
 }

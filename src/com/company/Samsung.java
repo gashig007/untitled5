@@ -10,6 +10,6 @@ public class Samsung extends Phone {
 
     @Override
     public void print() {
-        System.out.println("Phone: " + "Samsung" + "\nModel: " + model);
+        System.out.println("Phone: " + "Samsung" + "\nSamsung model: " + model);
     }
 }
