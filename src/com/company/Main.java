@@ -18,17 +18,17 @@ public class Main {
         int b = a.nextInt(10);
         switch (Phone) {
             case 1:
-                Nokia nokia = new Nokia(b,"Good");
+                Nokia nokia = new Nokia("Nokia","Good");
                 return nokia;
             case 2:
-                Iphone iphone = new Iphone(b, "Google");
+                Iphone iphone = new Iphone("Iphone", "Google");
                 return iphone;
             case 3:
-                Samsung samsung = new Samsung(b, "Samsung S8");
+                Samsung samsung = new Samsung("Samsung", "Samsung S8");
                 return samsung;
         }
-        Nokia nokia = new Nokia(b,"Good");Iphone iphone = new Iphone(b,"Google");
-        Samsung samsung = new Samsung(b, "Samsung S8");
+        Nokia nokia = new Nokia("Nokia","Good");Iphone iphone = new Iphone("Iphone","Google");
+        Samsung samsung = new Samsung("Samsung", "Samsung S8");
 
         Phone phone [] = {nokia, iphone, samsung};
         return null;

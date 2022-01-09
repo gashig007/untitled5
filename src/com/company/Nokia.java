@@ -3,8 +3,8 @@ package com.company;
 public class Nokia extends Phone{
     private String phoneMemory;
 
-    public Nokia(int memory, String phoneMemory) {
-        super(memory);
+    public Nokia(String name, String phoneMemory) {
+        super(name);
         this.phoneMemory = phoneMemory;
     }
 

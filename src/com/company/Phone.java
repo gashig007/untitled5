@@ -1,9 +1,9 @@
 package com.company;
 
 public abstract class Phone implements Printable{
-    private int memory;
+    private String name;
 
-    public Phone(int memory) {
-        this.memory = memory;
+    public Phone(String name) {
+        this.name = name;
     }
 }

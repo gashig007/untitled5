@@ -3,8 +3,8 @@ package com.company;
 public class Iphone extends Phone{
     private String annexes;
 
-    public Iphone(int memory, String annexes) {
-        super(memory);
+    public Iphone(String name, String annexes) {
+        super(name);
         this.annexes = annexes;
     }
 
